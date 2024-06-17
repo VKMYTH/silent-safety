@@ -1,0 +1,65 @@
+/* navbar.css */
+:root {
+    --font-family: 'Manrope', sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    color: white;
+}
+
+.navbar-left, .navbar-center, .navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left img {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.navbar-center {
+    flex-grow: 1;
+    justify-content: center;
+    font-size: 1.5em;
+    color: red;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.navbar-right a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar-element {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+}

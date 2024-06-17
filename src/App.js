@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
+import {Footer, Blog, WhatComp, Header, Team} from './containers';
+import { Navbar } from './components';
 import './App.css';
+import { Marquee } from './components';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+import "react-vertical-timeline-component/style.min.css";
+
+const App = () => (
+  <div className="App">
+    <Navbar />
+    <div className="gradient__bg">
+      <Header />
     </div>
-  );
-}
+    <WhatComp />
+      <Marquee />
+      <Team />
+    <Blog />
+    <Footer />
+  </div>
+);
 
 export default App;
