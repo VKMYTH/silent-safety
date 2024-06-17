@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/silent-safety/static/css/main.45ba881e.css",
+    "main.js": "/silent-safety/static/js/main.2cc0bb75.js",
+    "static/media/lewis-police.png": "/silent-safety/static/media/lewis-police.fc5253580b9f2934d121.png",
+    "static/media/img3.png": "/silent-safety/static/media/img3.86f17960330e16d265b6.png",
+    "static/media/img2.png": "/silent-safety/static/media/img2.e269effec4fb5741c2eb.png",
+    "static/media/img5.png": "/silent-safety/static/media/img5.d19e56d140668e9ba248.png",
+    "static/media/img1.png": "/silent-safety/static/media/img1.e7f78279377a22f33c8f.png",
+    "static/media/img4.png": "/silent-safety/static/media/img4.10a2bdcdbbd76164b37f.png",
+    "static/media/frisco-police.png": "/silent-safety/static/media/frisco-police.e39506185873a464bc27.png",
+    "static/media/ai.png": "/silent-safety/static/media/ai.42268253fa70f8707a98.png",
+    "static/media/batt-found-2.png": "/silent-safety/static/media/batt-found-2.063b040c924a78749efb.png",
+    "static/media/profile.png": "/silent-safety/static/media/profile.aa729f2c6877c6978e6b.png",
+    "static/media/slick.svg": "/silent-safety/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/silent-safety/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/silent-safety/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/silent-safety/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/silent-safety/index.html",
+    "main.45ba881e.css.map": "/silent-safety/static/css/main.45ba881e.css.map",
+    "main.2cc0bb75.js.map": "/silent-safety/static/js/main.2cc0bb75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45ba881e.css",
+    "static/js/main.2cc0bb75.js"
+  ]
+}
