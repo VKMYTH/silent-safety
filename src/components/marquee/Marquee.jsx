@@ -9,7 +9,7 @@ import img3 from '../../assets/batt-found-2.png';
 const Marquee = () => {
     return (
         <div>
-            <h1 className="marquee-heading">Partners</h1>
+            <h1 className="marquee-heading" id="partners">Partners</h1>
             <hr className="red-line" />
             <div className="marquee-container">
                 <div className="marquee-content">

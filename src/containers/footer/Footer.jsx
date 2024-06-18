@@ -1,6 +1,14 @@
 import React from 'react';
 import './footer.css';
 
+
+const handleScroll = (elementId) => {
+    const element = document.getElementById(elementId);
+    if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+    }
+};
+
 const Footer = () => (
   <div className="gpt3__footer section__padding">
 
@@ -9,13 +17,13 @@ const Footer = () => (
         <p>Silent Safety <br /> All Rights Reserved</p>
       </div>
       <div className="gpt3__footer-links_div">
-        <h4>...</h4>
+          <a onClick={() => handleScroll('blog')}>Links</a>
       </div>
       <div className="gpt3__footer-links_div">
-        <h4>...</h4>
+          <a onClick={() => handleScroll('team')}>Team Info</a>
       </div>
       <div className="gpt3__footer-links_div">
-        <h4>...</h4>
+          <a href="mailto:silentsafetyofficial@gmail.com">silentsafetyofficial@gmail.com</a>
       </div>
     </div>
 

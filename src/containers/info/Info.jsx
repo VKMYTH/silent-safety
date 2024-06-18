@@ -1,9 +1,9 @@
 import React from 'react';
 import Feature from '../../components/feature/Feature';
-import './whatComp.css';
+import './info.css';
 
-const WhatComp = () => (
-  <div className="gpt3__whatgpt3 section__margin" id="wcomp">
+const Info = () => (
+  <div className="gpt3__whatgpt3 section__margin" id="info">
     <div className="gpt3__whatgpt3-feature">
       <Feature title="What is Silent Safety?" text="The app serves to fight all types of crime, but it can primarily be utilized in domestic abuse cases. It works just like the namesake: providing safety, silently. Essentially the app enables individuals under duress to communicate with 911 without having to talk." />
     </div>
@@ -19,4 +19,4 @@ const WhatComp = () => (
   </div>
 );
 
-export default WhatComp;
+export default Info;

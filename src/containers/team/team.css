@@ -16,10 +16,11 @@
     width: 200px;
     cursor: pointer;
     transition: transform 0.2s;
-    background: linear-gradient(145deg, #3f1d1d, #cb5454);
+    background: linear-gradient(145deg, #802929, #000000);
     border-radius: 20px;
     padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-color: white;
     margin-top: 45px;
 }
 
@@ -31,7 +32,7 @@
     right: -8px;
     bottom: -8px;
     border-radius: 20px;
-    background: linear-gradient(145deg, #3f1d1d, #cb5454);
+    background: linear-gradient(145deg, #000000, #ff0000);
     z-index: -1;
 }
 

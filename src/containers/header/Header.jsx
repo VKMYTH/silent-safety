@@ -4,6 +4,13 @@ import ImageCarousel from '../../components/imagecarousel/ImageCarousel';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+const handleScroll = (elementId) => {
+    const element = document.getElementById(elementId);
+    if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+    }
+};
+
 const Header = () => (
   <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
@@ -16,7 +23,7 @@ const Header = () => (
       </p>
 
       <div className="gpt3__header-content__input">
-        <button type="button">Get Started Below</button>
+          <button onClick={() => handleScroll('info')}>Get Started Below</button>
       </div>
     </div>
 

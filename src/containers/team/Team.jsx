@@ -80,7 +80,7 @@ const Team = () => {
 
     return (
         <div className="team-container">
-            <h1 className="team-heading">Team</h1>
+            <h1 className="team-heading" id="team">Team</h1>
             <div className="team-grid">
                 {teamMembers.map((member, index) => (
                     <div key={index} className="team-member" onClick={() => handleMemberClick(member)}>

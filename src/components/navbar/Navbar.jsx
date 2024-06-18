@@ -15,10 +15,10 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="navbar-left">
                 <img src={favicon} alt="favicon" />
-                <a href="#info" onClick={() => handleScroll('info')}>Info</a>
-                <a href="#timeline" onClick={() => handleScroll('timeline')}>Timeline</a>
-                <a href="#team" onClick={() => handleScroll('team')}>Team</a>
-                <a href="#blogs" onClick={() => handleScroll('blogs')}>Blogs</a>
+                <a onClick={() => handleScroll('info')}>Info</a>
+                <a onClick={() => handleScroll('partners')}>Partners</a>
+                <a onClick={() => handleScroll('team')}>Team</a>
+                <a onClick={() => handleScroll('blog')}>Blogs</a>
             </div>
             <div className="navbar-center">
                 <h1 className={'gradient__text'}>Silent Safety</h1>
