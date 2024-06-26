@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import './imagecarousel.css';
 
@@ -8,12 +8,28 @@ import img2 from '../../assets/img2.png';
 import img3 from '../../assets/img3.png';
 import img4 from '../../assets/img4.png';
 import img5 from '../../assets/img5.png';
+
 const ImageCarousel = () => {
+    const [slidesToShow, setSlidesToShow] = useState(3);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setSlidesToShow(window.innerWidth < 768 ? 1 : 3);
+        };
+
+        handleResize(); // Call it initially to set the correct number of slides
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     const settings = {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: slidesToShow,
         slidesToScroll: 1,
         centerMode: true,
         centerPadding: '0px',
