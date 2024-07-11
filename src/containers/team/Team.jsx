@@ -1,41 +1,42 @@
-// src/Team.js
 import React, { useState } from 'react';
 import './team.css';
 import { FaInstagram, FaLinkedin } from 'react-icons/fa';
-import img1 from '../../assets/profile.png';
+import andrew from '../../assets/andrew.png';
+import devansh from '../../assets/devansh.png';
+import arjun from '../../assets/arjun.png';
+import shiv from '../../assets/shiv.png';
+import vaibhav from '../../assets/vaibhav.png';
+import sahana from '../../assets/sahana.png';
+import profile from '../../assets/profile.png';
 
 const teamMembers = [
     {
         name: "Shivansh Nikhra",
         role: "Co-Founder",
         description: "...",
-        imgSrc: img1,
-        instagram: '#',
-        linkedin: "#"
+        imgSrc: shiv,
+        linkedin: "https://www.linkedin.com/in/shivansh-nikhra-623a181b8/"
     },
     {
         name: "Arjun Ramprasad",
         role: "Co-Founder",
         description: "...",
-        imgSrc: img1,
-        instagram: "#",
-        linkedin: "#"
+        imgSrc: arjun,
+        linkedin: "https://www.linkedin.com/in/arjun-ramprasad-aa907a220/"
     },
     {
         name: "Devansh Roongta",
         role: "Co-Founder",
         description: "...",
-        imgSrc: img1,
-        instagram: "#",
-        linkedin: "#"
+        imgSrc: devansh,
+        linkedin: "https://www.linkedin.com/in/devansh-roongta-a421b1242/"
     },
     {
         name: "Andrew Chen",
         role: "Co-Founder",
         description: "...",
-        imgSrc: img1,
-        instagram: "#",
-        linkedin: "#"
+        imgSrc: andrew,
+        linkedin: "https://www.linkedin.com/in/andrew-chen-795815229/"
     },
 ];
 
@@ -44,27 +45,30 @@ const interns = [
         name: "Vaibhav Kolli",
         role: "Intern",
         description: "...",
-        imgSrc: img1,
-        instagram: '#',
-        linkedin: "#"
+        imgSrc: vaibhav,
+        linkedin: "https://linkedin.com/in/vaibhav-kolli/"
     },
     {
         name: "Sahana Pulavarthy",
         role: "Intern",
         description: "...",
-        imgSrc: img1,
-        instagram: '#',
-        linkedin: "#"
+        imgSrc: sahana,
+        linkedin: "https://linkedin.com"
+    },
+    {
+        name: "Kenneth Lin",
+        role: "Intern",
+        description: "...",
+        imgSrc: profile,
+        linkedin: "https://linkedin.com"
     },
     {
         name: "Vikranth Kolluru",
         role: "Intern",
         description: "...",
-        imgSrc: img1,
-        instagram: '#',
-        linkedin: "#"
+        imgSrc: profile,
+        linkedin: "https://linkedin.com"
     },
-
 ];
 
 const Team = () => {
@@ -106,9 +110,7 @@ const Team = () => {
                         <img src={selectedMember.imgSrc} alt={selectedMember.name} />
                         <h3>{selectedMember.name}</h3>
                         <p>{selectedMember.role}</p>
-                        <p>{selectedMember.description}</p>
                         <div className="social-media">
-                            <a href={selectedMember.instagram}><FaInstagram /></a>
                             <a href={selectedMember.linkedin}><FaLinkedin /></a>
                         </div>
                         <button onClick={handleCloseClick}>Close</button>
