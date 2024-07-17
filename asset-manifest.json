@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.8319d3c2.css",
-    "main.js": "/static/js/main.9605d885.js",
+    "main.js": "/static/js/main.ac78df67.js",
     "static/media/sahana.png": "/static/media/sahana.640a15340ae266ac6446.png",
     "static/media/lewis-police.png": "/static/media/lewis-police.fc5253580b9f2934d121.png",
+    "static/media/kenneth.png": "/static/media/kenneth.1da6529d1cf88f9b48a6.png",
     "static/media/img3.png": "/static/media/img3.86f17960330e16d265b6.png",
     "static/media/img2.png": "/static/media/img2.e269effec4fb5741c2eb.png",
     "static/media/img5.png": "/static/media/img5.d19e56d140668e9ba248.png",
@@ -19,16 +20,17 @@
     "static/media/andrew.png": "/static/media/andrew.e656fb0846aad1b7aed7.png",
     "static/media/devansh.png": "/static/media/devansh.10c0dfdb0481de6d3b97.png",
     "static/media/shiv.png": "/static/media/shiv.8444a7002378b0c806fe.png",
+    "static/media/vikranth.png": "/static/media/vikranth.ce722d9e3fdd77a8456c.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.8319d3c2.css.map": "/static/css/main.8319d3c2.css.map",
-    "main.9605d885.js.map": "/static/js/main.9605d885.js.map"
+    "main.ac78df67.js.map": "/static/js/main.ac78df67.js.map"
   },
   "entrypoints": [
     "static/css/main.8319d3c2.css",
-    "static/js/main.9605d885.js"
+    "static/js/main.ac78df67.js"
   ]
 }
