@@ -7,7 +7,10 @@ import arjun from '../../assets/arjun.png';
 import shiv from '../../assets/shiv.png';
 import vaibhav from '../../assets/vaibhav.png';
 import sahana from '../../assets/sahana.png';
+import vikranth from '../../assets/vikranth.png';
+import kenneth from '../../assets/kenneth.png';
 import profile from '../../assets/profile.png';
+
 
 const teamMembers = [
     {
@@ -56,17 +59,17 @@ const interns = [
         linkedin: "https://linkedin.com"
     },
     {
-        name: "Kenneth Lin",
-        role: "Intern",
-        description: "...",
-        imgSrc: profile,
-        linkedin: "https://linkedin.com"
-    },
-    {
         name: "Vikranth Kolluru",
         role: "Intern",
         description: "...",
-        imgSrc: profile,
+        imgSrc: vikranth,
+        linkedin: "https://linkedin.com"
+    },
+    {
+        name: "Kenneth Lin",
+        role: "Intern",
+        description: "...",
+        imgSrc: kenneth,
         linkedin: "https://linkedin.com"
     },
 ];
