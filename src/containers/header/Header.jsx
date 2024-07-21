@@ -11,7 +11,7 @@ const handleScroll = (elementId) => {
     }
 };
 
-const Header = () => (
+const Header = (props: any) => (
   <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
       <h1 className="gradient__text">Welcome to Silent Safety</h1>
@@ -30,5 +30,13 @@ const Header = () => (
       <ImageCarousel />
   </div>
 );
+
+export const getStaticProps = async () => {
+    return {
+        props: {
+            name: "Silent Safety",
+        },
+    };
+};
 
 export default Header;
