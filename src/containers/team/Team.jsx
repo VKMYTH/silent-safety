@@ -51,27 +51,6 @@ const interns = [
         imgSrc: vaibhav,
         linkedin: "https://linkedin.com/in/vaibhav-kolli/"
     },
-    {
-        name: "Sahana Pulavarthy",
-        role: "Intern",
-        description: "...",
-        imgSrc: sahana,
-        linkedin: "https://linkedin.com"
-    },
-    {
-        name: "Vikranth Kolluru",
-        role: "Intern",
-        description: "...",
-        imgSrc: vikranth,
-        linkedin: "https://linkedin.com"
-    },
-    {
-        name: "Kenneth Lin",
-        role: "Intern",
-        description: "...",
-        imgSrc: kenneth,
-        linkedin: "https://linkedin.com"
-    },
 ];
 
 const Team = () => {
