@@ -14,43 +14,23 @@ import profile from '../../assets/profile.png';
 
 const teamMembers = [
     {
-        name: "Shivansh Nikhra",
-        role: "Co-Founder",
-        description: "...",
-        imgSrc: shiv,
-        linkedin: "https://www.linkedin.com/in/shivansh-nikhra-623a181b8/"
-    },
-    {
-        name: "Arjun Ramprasad",
-        role: "Co-Founder",
-        description: "...",
-        imgSrc: arjun,
-        linkedin: "https://www.linkedin.com/in/arjun-ramprasad-aa907a220/"
-    },
-    {
-        name: "Devansh Roongta",
-        role: "Co-Founder",
-        description: "...",
-        imgSrc: devansh,
-        linkedin: "https://www.linkedin.com/in/devansh-roongta-a421b1242/"
-    },
-    {
-        name: "Andrew Chen",
-        role: "Co-Founder",
-        description: "...",
-        imgSrc: andrew,
-        linkedin: "https://www.linkedin.com/in/andrew-chen-795815229/"
-    },
-];
-
-const interns = [
-    {
         name: "Vaibhav Kolli",
-        role: "Intern",
+        role: "President & Head of App Development",
         description: "...",
         imgSrc: vaibhav,
         linkedin: "https://linkedin.com/in/vaibhav-kolli/"
     },
+    {
+        name: "Vikranth Kolluru",
+        role: "Vice President & Marketing Outreach",
+        description: "...",
+        imgSrc: vikranth,
+        linkedin: "https://linkedin.com/in/"
+    }
+];
+
+const interns = [
+    
 ];
 
 const Team = () => {
